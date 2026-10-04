@@ -1,28 +1,68 @@
 # Hacktoberfest 2026 — Build for a Friend submission
 
 ## What I Built
-DostStudy is a private AI study buddy built for a real friend who struggles with complicated study material. It provides simple explanations, summaries, doubts, and quizzes with English/Hinglish/Hindi support.
+
+I built **DostStudy**, a private AI study buddy designed around a common study problem: complicated textbook explanations can take too long to understand. DostStudy provides simple explanations, summaries, doubts, and quizzes with English, Hindi, and Hinglish support.
 
 ## Demo
-PASTE_YOUR_DEMO_OR_VIDEO_LINK_HERE
 
-## Source code
+https://youtube.com/shorts/WfbHxrnq8AE?si=ITySnc1B8-Ssphwq
+
+## Source Code
+
 https://github.com/godGamerz812/doststudy
 
-## AI stack
-- Streamlit
-- Python
-- Ollama
-- Gemma 3
+## AI Stack
 
-## Why open innovation matters
-The application is designed around local inference. With Ollama running locally, study material can stay on the user's machine and the AI stack is not locked to one closed provider. The model can also be replaced and the application prompts and behavior can be adapted.
+- **Gemma 3** — open-weight AI model
+- **Ollama** — model serving
+- **Python** — application logic
+- **Streamlit** — user interface
 
-## Built for a real person
-Describe the actual friend/problem here. Add only genuine feedback or a real quote, with permission.
+Architecture:
 
-## Feedback-driven improvements
-Describe the changes you made after the person tested the first version.
+Student
+↓
+Streamlit
+↓
+Python
+↓
+Ollama
+↓
+Gemma 3
 
-## Required challenge tags
+## Why Open Innovation Matters
+
+Open innovation matters because the AI model is not locked behind one closed provider. DostStudy uses an open-weight model through Ollama, giving the project more control over how the AI is used.
+
+When Ollama runs locally, study questions and notes can be processed on the user's machine instead of requiring a closed cloud AI API. The model can also be swapped, prompts can be changed, and the application can be adapted without rebuilding the entire product around one provider.
+
+For this project, open AI is valuable because it gives the developer and user more control over the AI stack.
+
+## Built for a Real Person
+
+**Design scenario:** DostStudy is designed for a college classmate who finds long and complicated textbook explanations difficult and prefers simple explanations in Hinglish.
+
+This scenario guided the features: simpler explanations, summaries, and quick quizzes.
+
+> I am not claiming a fabricated testimonial or quote. Any future friend feedback will be added only after the person has actually tested the project and given permission to share it.
+
+## Feedback-Driven Improvements
+
+The first version focuses on the core workflow: ask a question, choose an explanation style, and receive an AI-generated explanation or practice quiz.
+
+Future improvements will be based on testing with the intended user and their genuine feedback.
+
+## Prize Categories
+
+- Best Use of Gemma
+
+## My Agent Session
+
+No separate DevRelay session is included in this submission.
+
+## Required Challenge Tags
+
 #devchallenge #weekendchallenge #hf26challenge
+
+Thanks for participating!
